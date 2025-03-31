@@ -31,9 +31,11 @@ exports[`a pagina de configuração deve ser renderizada corretamente 1`] = `
     <ul
       class="ul"
     />
-    <footer>
+    <footer
+      class="rodape"
+    >
       <button
-        class="button"
+        class="btn"
         disabled=""
       >
         <span>

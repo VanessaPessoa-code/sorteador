@@ -19,6 +19,13 @@ jest.mock('../../state/hook/useResultadoSorteio', () => {
 })
 
 
+const mockNavegacao = jest.fn();
+jest.mock('react-router-dom', () => {
+    return {
+        useNavigate: () => mockNavegacao //hook que retorna uma função
+    }
+});
+
 describe('na pagina de sorteio', () => {
     const participantes = [
         'Ana',
