@@ -1,0 +1,31 @@
+
+.form_sorteio{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    gap: 20px;
+}
+
+.help_text{
+    font-size: 20px;
+    font-weight: 400;
+    color: #000;
+    text-align: center;
+    width: 475px;
+}
+
+.campo_select{
+    width: 476px;
+    height: 82px;
+    border-radius: 37.5px;
+    border: 1px solid #000;
+}
+
+.campo_select::placeholder {
+    padding: 18px 31px;
+    opacity: 0.3;
+    font-weight: 400;
+}
